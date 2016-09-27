@@ -139,3 +139,4 @@
 2016-09-20 10:01:05,835 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
 2016-09-24 17:07:11,465 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
 2016-09-27 16:45:16,832 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-09-27 17:09:40,099 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
