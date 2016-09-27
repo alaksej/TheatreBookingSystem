@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using TheatreBookingSystem.App_Start;
 using TheatreBookingSystem.Models;
 
 namespace TheatreBookingSystem
@@ -14,6 +15,7 @@ namespace TheatreBookingSystem
         protected void Application_Start()
         {
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+			FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
 			LoggerConfig.Configure();
 		}
     }

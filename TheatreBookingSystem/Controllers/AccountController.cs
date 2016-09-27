@@ -2,10 +2,10 @@
 using System.Web.Security;
 using TheatreBookingSystem.Models;
 using TheatreBookingSystem.Providers;
+using TheatreBookingSystem.Filters;
 
 namespace TheatreBookingSystem.Controllers
 {
-	[Culture]
 	public class AccountController : Controller
     {
 		public ActionResult Login(string returnUrl)

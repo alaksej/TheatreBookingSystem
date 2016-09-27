@@ -6,10 +6,10 @@ using System.Web;
 using System.Web.Hosting;
 using System.Web.Mvc;
 using TheatreBookingSystem.Models;
+using TheatreBookingSystem.Filters;
 
 namespace TheatreBookingSystem.Controllers
 {
-	[Culture]
 	public class HomeController : Controller
 	{
 		private TheatreContextService dbService =
