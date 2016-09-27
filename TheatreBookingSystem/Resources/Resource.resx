@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AuthorName" xml:space="preserve">
+    <value>Аўтар</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Свабодных</value>
+  </data>
+  <data name="BackToMain" xml:space="preserve">
+    <value>На галоўную</value>
+  </data>
+  <data name="BackToOrders" xml:space="preserve">
+    <value>Назад да замоў</value>
+  </data>
+  <data name="Bill" xml:space="preserve">
+    <value>Вартасць</value>
+  </data>
+  <data name="CancelOrder" xml:space="preserve">
+    <value>Скасаваць замову</value>
+  </data>
+  <data name="CancelOrderMessage" xml:space="preserve">
+    <value>Наступныя замовы былі скасаваныя</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Катэгорыя</value>
+  </data>
+  <data name="ChooseLang" xml:space="preserve">
+    <value>Выберыце мову...</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Пацвердзіце пароль</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="Dates" xml:space="preserve">
+    <value>Даты паказаў</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Аб спектаклі</value>
+  </data>
+  <data name="DevelopedBy" xml:space="preserve">
+    <value>Распрацоўка сайта</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Электронная пошта</value>
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>Неабходна ўвесці адрас электроннай пошты</value>
+  </data>
+  <data name="ExportUnpaidOrders" xml:space="preserve">
+    <value>Экспартаваць неаплачаныя замовы ў файл</value>
+  </data>
+  <data name="GenreName" xml:space="preserve">
+    <value>Жанр</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Галоўная</value>
+  </data>
+  <data name="IsPaid" xml:space="preserve">
+    <value>Аплачана?</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Уваход</value>
+  </data>
+  <data name="LoginIncorrectMessage" xml:space="preserve">
+    <value>Недакладнае імя карыстальніка ці пароль</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Выхад</value>
+  </data>
+  <data name="MainPage" xml:space="preserve">
+    <value>Галоўная старонка</value>
+  </data>
+  <data name="ManagePayments" xml:space="preserve">
+    <value>Кіраванне аплатамі</value>
+  </data>
+  <data name="NameRequired" xml:space="preserve">
+    <value>Неабходна ўвесці імя карыстальніка</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Замовіць</value>
+  </data>
+  <data name="OrderCancelledTitle" xml:space="preserve">
+    <value>Замова скасавана</value>
+  </data>
+  <data name="OrderDeliveryMessage" xml:space="preserve">
+    <value>Мы звяжамся з Вамі ў бліжэйшы час каб дамовіцца аб дастаўцы Вашай замовы</value>
+  </data>
+  <data name="Ordered" xml:space="preserve">
+    <value>Замоўленых</value>
+  </data>
+  <data name="OrderNotificationTitle" xml:space="preserve">
+    <value>Апавяшчэнне аб замове</value>
+  </data>
+  <data name="Paid" xml:space="preserve">
+    <value>Аплачаных</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="PasswordError" xml:space="preserve">
+    <value>Даўжыня паролю павінна быць як меней 6 знакаў</value>
+  </data>
+  <data name="PasswordRequired" xml:space="preserve">
+    <value>Неабходна ўвесці пароль</value>
+  </data>
+  <data name="PasswordsDoNotMatch" xml:space="preserve">
+    <value>Паролі не супадаюць</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Тэлефон</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Спектакль</value>
+  </data>
+  <data name="PlayName" xml:space="preserve">
+    <value>Спектакль</value>
+  </data>
+  <data name="PleaseLogin" xml:space="preserve">
+    <value>Калі ласка, увайдзіце ў сістэму каб замовіць квіткі</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Колькасць</value>
+  </data>
+  <data name="QuantityRegExError" xml:space="preserve">
+    <value>Поле </value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Рэгістрацыя</value>
+  </data>
+  <data name="RegistrationError" xml:space="preserve">
+    <value>Памылка рэгістрацыі</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Запомніць мяне?</value>
+  </data>
+  <data name="Repertoire" xml:space="preserve">
+    <value>Афіша</value>
+  </data>
+  <data name="SiteName" xml:space="preserve">
+    <value>Сістэта замовы квіткоў</value>
+  </data>
+  <data name="ThankYouForOrder" xml:space="preserve">
+    <value>Дзякуй за замову!</value>
+  </data>
+  <data name="TicketPrice" xml:space="preserve">
+    <value>Цана квітка</value>
+  </data>
+  <data name="TotalTickets" xml:space="preserve">
+    <value>Усяго квіткоў</value>
+  </data>
+  <data name="UnableToCancelOrder" xml:space="preserve">
+    <value>Замова не адменена. Пераканайцеся, што колькасць білетаў уведзена карэктна. Аплачаныя замовы немагчыма скасаваць.</value>
+  </data>
+  <data name="UnableToOrderPast" xml:space="preserve">
+    <value>Немагчыма  замовіць квіткі на спектакль, які ўжо адбыўся</value>
+  </data>
+  <data name="UnableToPlaceOrder" xml:space="preserve">
+    <value>Замова не зроблена. Пераканайцеся, што колькасць білетаў уведзена карэктна.</value>
+  </data>
+  <data name="UpdatePayments" xml:space="preserve">
+    <value>Абнавіць аплаты</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Карыстальнік</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Імя карыстальніка</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Прывітанне, Госць!</value>
+  </data>
+  <data name="MyOrders" xml:space="preserve">
+    <value>Мае замовы</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="Sum" xml:space="preserve">
+    <value>Усяго</value>
+  </data>
+  <data name="OrderListEmpty" xml:space="preserve">
+    <value>Няма замоў</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Скасаваць</value>
+  </data>
+  <data name="ConfirmFormSubmit" xml:space="preserve">
+    <value>Вы ўпэўнены, што жадаеце адправіць запыт?</value>
+  </data>
+</root>

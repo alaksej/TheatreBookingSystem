@@ -1,0 +1,73 @@
+﻿@model IList<TheatreBookingSystem.Models.OrderViewModel>
+
+@{
+	ViewBag.Title = Resources.Resource.ManagePayments;
+}
+
+<h2>@Resources.Resource.ManagePayments</h2>
+@if (Model.Count == 0)
+{
+	<div>@Resources.Resource.OrderListEmpty</div>
+}
+else
+{
+	using (Html.BeginForm())
+	{
+		<table class="table">
+			<tr>
+				<th>
+					@Html.DisplayNameFor(model => model[0].UserName)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model[0].PlayName)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model[0].Date)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model[0].CategoryName)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model[0].Paid)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model[0].Ordered)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model[0].IsPaid)
+				</th>
+			</tr>
+
+			@for (int i = 0; i < Model.Count(); i++)
+			{
+				<tr>
+					<td>
+						@Html.DisplayFor(modelItem => modelItem[i].UserName)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => modelItem[i].PlayName)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => modelItem[i].Date)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => modelItem[i].CategoryName)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => modelItem[i].Paid)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => modelItem[i].Ordered)
+					</td>
+					<td>
+						@Html.HiddenFor(modelItem => modelItem[i].OrderID)
+						@Html.EditorFor(modelItem => modelItem[i].IsPaid)
+					</td>
+				</tr>
+			}
+		</table>
+		<input type="submit" name="Apply" value="@Resources.Resource.UpdatePayments" />
+	}
+
+	@Html.ActionLink(Resources.Resource.ExportUnpaidOrders, "ExportOrdersToXml")
+}

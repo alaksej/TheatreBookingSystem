@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Play>
+
+@{
+	ViewBag.Title = Resources.Resource.Index;
+}
+
+<h2>@Resources.Resource.Repertoire</h2>
+@foreach (Play play in Model)
+{
+	<p>
+		@Html.Partial("ShowPlayPartial", play)
+		@Html.Partial("ShowDatesPartial", play.Dates)
+	</p>
+}

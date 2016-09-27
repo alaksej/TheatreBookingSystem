@@ -1,0 +1,11 @@
+﻿@model IEnumerable<OrderViewModel>
+@{
+	ViewBag.Title = Resources.Resource.OrderCancelledTitle;
+	var date = ViewBag.Date as PlayDate;
+}
+
+<h2>@Resources.Resource.CancelOrderMessage:</h2>
+@Html.Partial("ShowOrdersPartial", Model)
+
+<a href="@ViewBag.ReturnUrl">@Resources.Resource.Back</a>
+@Html.ActionLink(Resources.Resource.BackToMain, "Index")

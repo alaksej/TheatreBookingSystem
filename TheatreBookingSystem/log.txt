@@ -1,0 +1,141 @@
+2016-06-17 16:09:08,652 [52] INFO TheatreBookingSystem.Controllers.HomeController - Index method started
+2016-06-17 16:09:52,729 [52] INFO TheatreBookingSystem.Controllers.HomeController - Index method started
+2016-06-17 16:10:44,505 [51] INFO TheatreBookingSystem.Controllers.HomeController - Index method started
+2016-06-17 16:24:12,328 [19] INFO TheatreBookingSystem.Controllers.HomeController - Index method started
+2016-06-17 16:25:37,052 [11] INFO TheatreBookingSystem.Controllers.HomeController - Index method started
+2016-06-17 16:29:06,879 [19] INFO TheatreBookingSystem.Controllers.HomeController - Index method started
+2016-06-17 16:29:13,698 [11] INFO TheatreBookingSystem.Controllers.HomeController - Index method started
+2016-06-17 16:29:59,626 [19] INFO TheatreBookingSystem.Controllers.HomeController - Index method started
+2016-06-17 16:57:15,713 [7] INFO TheatreBookingSystem.Controllers.HomeController - Index method started
+2016-06-17 16:58:04,594 [6] INFO TheatreBookingSystem.Controllers.HomeController - Index method started
+2016-06-17 16:58:19,932 [6] INFO TheatreBookingSystem.Controllers.HomeController - Index method started
+2016-06-17 16:58:31,665 [9] INFO TheatreBookingSystem.Controllers.HomeController - Index method started
+2016-06-17 17:29:45,852 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-18 10:29:55,707 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-18 10:29:56,387 [6] INFO HomeController - Index method is invoked
+2016-06-18 10:30:21,667 [6] INFO HomeController - Index method is invoked
+2016-06-18 10:30:59,139 [9] INFO HomeController - Index method is invoked
+2016-06-18 13:27:15,259 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-18 13:37:38,157 [694] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-18 13:49:56,791 [694] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-18 13:49:57,282 [681] DEBUG HomeController - 'id' parameter passed to Order (Get) method is null
+2016-06-18 14:03:54,912 [688] DEBUG HomeController - 'id' parameter passed to Order (Get) method is null
+2016-06-18 14:09:00,950 [687] DEBUG HomeController - 'id' parameter passed to Order (Get) method is null
+2016-06-18 14:13:55,198 [687] DEBUG HomeController - 'id' parameter passed to Order (Get) method is null
+2016-06-18 14:42:37,411 [678] DEBUG HomeController - 'id' parameter passed to Order (Get) method is null
+2016-06-19 15:14:24,037 [364] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-19 15:15:06,910 [365] WARN HomeController - Could not return unpaid Order from database. CategoryId: 5 LoginId: 3 DateId: 5
+2016-06-19 15:18:36,489 [370] WARN HomeController - Could not return unpaid Order from database. CategoryId: 5 LoginId: 3 DateId: 5
+2016-06-19 15:21:35,498 [388] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-19 16:36:52,038 [388] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-19 20:06:46,772 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-19 20:43:46,326 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-19 21:34:10,024 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-19 22:27:24,362 [231] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-19 22:33:04,425 [231] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-19 22:35:38,625 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-19 22:46:09,374 [214] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-19 22:54:02,884 [224] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-19 22:58:43,706 [224] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-19 22:59:25,232 [224] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-19 23:12:45,946 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-19 23:24:56,159 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-19 23:29:42,108 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-19 23:37:37,983 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-19 23:39:40,306 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-19 23:40:39,488 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 08:59:50,932 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 09:05:44,472 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 09:06:46,755 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 09:08:09,267 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 09:09:37,841 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 09:12:49,537 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 09:13:33,946 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 09:14:33,455 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 09:18:07,512 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 09:20:23,523 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 09:23:32,475 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 09:24:38,346 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 09:33:44,890 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 10:31:16,045 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 10:33:42,223 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 10:38:26,662 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 10:48:14,016 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 10:48:14,771 [6] DEBUG HomeController - 'id' parameter passed to Order (Get) method is null
+2016-06-20 10:49:53,975 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 13:01:02,927 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 13:05:02,880 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 13:21:14,605 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 13:21:20,692 [393] WARN HomeController - Order not found. CategoryId: 1, UserName: deliveryman, Date: 07/16/2016 00:00:00
+2016-06-20 13:21:20,695 [393] WARN HomeController - Order not found. CategoryId: 2, UserName: deliveryman, Date: 07/16/2016 00:00:00
+2016-06-20 13:21:20,696 [393] WARN HomeController - Order not found. CategoryId: 3, UserName: deliveryman, Date: 07/16/2016 00:00:00
+2016-06-20 13:21:20,697 [393] WARN HomeController - Order not found. CategoryId: 4, UserName: deliveryman, Date: 07/16/2016 00:00:00
+2016-06-20 13:21:20,697 [393] WARN HomeController - Order not found. CategoryId: 5, UserName: deliveryman, Date: 07/16/2016 00:00:00
+2016-06-20 13:21:20,698 [393] WARN HomeController - Order not found. CategoryId: 6, UserName: deliveryman, Date: 07/16/2016 00:00:00
+2016-06-20 13:21:39,862 [394] WARN HomeController - Order not found. CategoryId: 1, UserName: deliveryman, Date: 07/10/2016 00:00:00
+2016-06-20 13:21:39,862 [394] WARN HomeController - Order not found. CategoryId: 2, UserName: deliveryman, Date: 07/10/2016 00:00:00
+2016-06-20 13:21:39,863 [394] WARN HomeController - Order not found. CategoryId: 3, UserName: deliveryman, Date: 07/10/2016 00:00:00
+2016-06-20 13:21:39,864 [394] WARN HomeController - Order not found. CategoryId: 4, UserName: deliveryman, Date: 07/10/2016 00:00:00
+2016-06-20 13:21:39,865 [394] WARN HomeController - Order not found. CategoryId: 5, UserName: deliveryman, Date: 07/10/2016 00:00:00
+2016-06-20 13:21:39,865 [394] WARN HomeController - Order not found. CategoryId: 6, UserName: deliveryman, Date: 07/10/2016 00:00:00
+2016-06-20 13:21:48,268 [390] WARN HomeController - Order not found. CategoryId: 1, UserName: , Date: 07/16/2016 00:00:00
+2016-06-20 13:21:48,269 [390] WARN HomeController - Order not found. CategoryId: 2, UserName: , Date: 07/16/2016 00:00:00
+2016-06-20 13:21:48,270 [390] WARN HomeController - Order not found. CategoryId: 3, UserName: , Date: 07/16/2016 00:00:00
+2016-06-20 13:21:48,270 [390] WARN HomeController - Order not found. CategoryId: 4, UserName: , Date: 07/16/2016 00:00:00
+2016-06-20 13:21:48,271 [390] WARN HomeController - Order not found. CategoryId: 5, UserName: , Date: 07/16/2016 00:00:00
+2016-06-20 13:21:48,272 [390] WARN HomeController - Order not found. CategoryId: 6, UserName: , Date: 07/16/2016 00:00:00
+2016-06-20 13:23:31,354 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 13:23:37,656 [6] WARN HomeController - Order not found. CategoryId: 1, UserName: , Date: 07/16/2016 00:00:00
+2016-06-20 13:23:37,670 [6] WARN HomeController - Order not found. CategoryId: 2, UserName: , Date: 07/16/2016 00:00:00
+2016-06-20 13:23:37,683 [6] WARN HomeController - Order not found. CategoryId: 3, UserName: , Date: 07/16/2016 00:00:00
+2016-06-20 13:23:37,710 [6] WARN HomeController - Order not found. CategoryId: 4, UserName: , Date: 07/16/2016 00:00:00
+2016-06-20 13:23:37,720 [6] WARN HomeController - Order not found. CategoryId: 5, UserName: , Date: 07/16/2016 00:00:00
+2016-06-20 13:23:37,731 [6] WARN HomeController - Order not found. CategoryId: 6, UserName: , Date: 07/16/2016 00:00:00
+2016-06-20 13:29:47,069 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 13:33:58,164 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 13:37:30,685 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 13:37:50,394 [10] WARN HomeController - Order not found. CategoryId: 1, UserName: user1, Date: 07/10/2016 00:00:00
+2016-06-20 13:37:50,398 [10] WARN HomeController - Order not found. CategoryId: 2, UserName: user1, Date: 07/10/2016 00:00:00
+2016-06-20 13:37:50,443 [10] WARN HomeController - Order not found. CategoryId: 4, UserName: user1, Date: 07/10/2016 00:00:00
+2016-06-20 13:37:50,445 [10] WARN HomeController - Order not found. CategoryId: 5, UserName: user1, Date: 07/10/2016 00:00:00
+2016-06-20 13:37:50,446 [10] WARN HomeController - Order not found. CategoryId: 6, UserName: user1, Date: 07/10/2016 00:00:00
+2016-06-20 13:41:48,929 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 13:45:15,811 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 13:51:34,545 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 14:05:02,556 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 14:10:09,892 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 14:15:25,020 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 14:18:08,291 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 14:26:29,224 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 14:31:40,418 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 14:45:10,941 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 14:49:55,036 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 15:17:03,190 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 15:20:30,531 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 15:25:24,217 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 15:27:13,696 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 15:29:26,817 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 15:30:36,224 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 15:33:22,072 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 15:44:53,100 [35] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 15:47:50,104 [26] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 16:39:45,669 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 16:43:06,729 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 16:46:33,641 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 16:49:43,668 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 16:51:55,132 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 16:56:17,152 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 17:11:23,657 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 17:38:53,751 [25] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 17:56:44,183 [47] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 18:05:20,968 [47] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 18:11:06,769 [47] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 19:00:39,879 [84] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 22:10:53,257 [47] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 23:11:16,662 [47] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 23:15:27,129 [133] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-06-20 23:34:13,287 [89] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-07-01 12:41:31,954 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-09-20 10:01:05,835 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-09-24 17:07:11,465 [1] INFO TheatreBookingSystem.LoggerConfig - Application started
+2016-09-27 16:45:16,832 [1] INFO TheatreBookingSystem.LoggerConfig - Application started

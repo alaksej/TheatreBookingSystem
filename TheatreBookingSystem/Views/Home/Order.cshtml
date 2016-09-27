@@ -1,0 +1,96 @@
+﻿@model OrderViewModelList
+
+@using System.Security.Principal;
+
+@{
+	ViewBag.Title = Resources.Resource.Order;
+	var datesOfPplay = ((ICollection<PlayDate>)ViewBag.Play.Dates).OrderBy(d => d.PerformanceDate);
+	IPrincipal user = HttpContext.Current.User;
+}
+
+<h2>@Resources.Resource.Order</h2>
+
+<div>
+	@Html.Partial("ShowPlayPartial", (Play)ViewBag.Play)
+	@foreach (PlayDate d in datesOfPplay)
+	{
+		if ((PlayDate)ViewBag.Date == d)
+		{
+			<span style="background-color: yellow">@d.PerformanceDate.ToString("dd.MM")</span>
+		}
+		else
+		{
+			<a href="/Home/Order/@d.DateID">@d.PerformanceDate.ToString("dd.MM")</a>
+		}
+	}
+</div><br />
+<div>
+	<fieldset>
+		<form action="@Url.Action()" method="post" onsubmit="return confirm('@Resources.Resource.ConfirmFormSubmit')">
+			<table>
+				<tr>
+					<th>@Html.DisplayNameFor(m => m.OrderViewModels[0].CategoryName)</th>
+					<th>@Html.DisplayNameFor(m => m.OrderViewModels[0].TicketPrice)</th>
+					<th>@Html.DisplayNameFor(m => m.OrderViewModels[0].TotalTickets)</th>
+					<th>@Html.DisplayNameFor(m => m.OrderViewModels[0].Available)</th>
+					@if (user.Identity.IsAuthenticated)
+					{
+						<th>@Html.DisplayNameFor(m => m.OrderViewModels[0].Paid)</th>
+						<th>@Html.DisplayNameFor(m => m.OrderViewModels[0].Ordered)</th>
+						<th>@Html.DisplayNameFor(m => m.OrderViewModels[0].Quantity)</th>
+					}
+				</tr>
+				@for (int i = 0; i < Model.OrderViewModels.Count(); i++)
+				{
+					<tr>
+						<td>@Html.DisplayFor(m => m.OrderViewModels[i].CategoryName)</td>
+						<td>@Html.DisplayFor(m => m.OrderViewModels[i].TicketPrice)</td>
+						<td>@Html.DisplayFor(m => m.OrderViewModels[i].TotalTickets)</td>
+						<td>@Html.DisplayFor(m => m.OrderViewModels[i].Available)</td>
+						@if (user.Identity.IsAuthenticated)
+						{
+							<td>@Html.DisplayFor(m => m.OrderViewModels[i].Paid)</td>
+							<td>@Html.DisplayFor(m => m.OrderViewModels[i].Ordered)</td>
+							<td>
+								@Html.HiddenFor(m => m.OrderViewModels[i].OrderID)
+								@Html.HiddenFor(m => m.OrderViewModels[i].CategoryID)
+								@Html.HiddenFor(m => m.OrderViewModels[i].Available)
+								@{
+									Model.OrderViewModels[i].Quantity = 0;
+								}
+								@Html.EditorFor(m => m.OrderViewModels[i].Quantity)
+							</td>
+						}
+					</tr>
+				}
+				@if (user.Identity.IsAuthenticated)
+				{
+					<tr>
+						<td><b>@Resources.Resource.Sum</b></td>
+						<td />
+						<td />
+						<td />
+						<td><b>@Model.TotalPaid.ToString("N0")</b></td>
+						<td><b>@Model.TotalOrdered.ToString("N0")</b></td>
+                        <td><b id="quantity-total"></b></td>
+					</tr>
+				}
+
+			</table>
+			@if (user.Identity.IsAuthenticated)
+			{
+				<input type="submit" value="@Resources.Resource.Order" name="submitOrder" />
+				<input type="submit" value="@Resources.Resource.CancelOrder" name="cancelOrder" />
+			}
+			else
+			{
+				<div>
+					@Resources.Resource.PleaseLogin
+				</div>
+			}
+		</form>
+	</fieldset>
+</div>
+
+@*<script src="~/Scripts/jquery-2.2.4.min.js" type="text/javascript"></script>*@
+<script src="~/Scripts/main.js" type="text/javascript"></script>

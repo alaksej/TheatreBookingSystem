@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     targetNamespace="http://yankou.com/LabProject/repertoire"
+     xmlns:rep="http://yankou.com/LabProject/repertoire">
+  <xs:element name="repertoire">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="play" type="rep:Play" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="Play">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="dates" type="rep:Dates"/>
+    </xs:sequence>
+		<xs:attribute name="id" type="xs:integer" use ="required"/>
+		<xs:attribute name="author" type="xs:string" use ="required"/>
+    <xs:attribute name="genre" type="xs:string" use ="required"/>
+  </xs:complexType>
+  <xs:complexType name="Dates">
+    <xs:sequence>
+      <xs:element name="date" type="rep:Date" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+	<xs:complexType name="Date">
+		<xs:simpleContent>
+			<xs:extension base="xs:date">
+				<xs:attribute name="id" type="xs:integer" use="required" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+</xs:schema>

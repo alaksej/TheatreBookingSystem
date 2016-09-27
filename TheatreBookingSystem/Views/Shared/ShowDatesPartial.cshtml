@@ -1,0 +1,6 @@
+﻿@model ICollection<PlayDate>
+
+@foreach (var d in Model)
+{
+	<a href="/Home/Order/@d.DateID">@d.PerformanceDate.ToString("dd.MM")</a>
+}

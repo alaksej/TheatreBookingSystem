@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<categories>
+  <category id="1">
+    <name>Parterre</name>
+    <totalTickets>100</totalTickets>
+    <ticketPrice>180000</ticketPrice>
+  </category>
+  <category id="2">
+    <name>Parterre Right/Left</name>
+    <totalTickets>44</totalTickets>
+    <ticketPrice>160000</ticketPrice>
+  </category>
+  <category id="3">
+    <name>Loge</name>
+    <totalTickets>36</totalTickets>
+    <ticketPrice>130000</ticketPrice>
+  </category>
+  <category id="4">
+    <name>Mezzanine</name>
+    <totalTickets>28</totalTickets>
+    <ticketPrice>125000</ticketPrice>
+  </category>
+  <category id="5">
+    <name>Mezzanine Right/Left</name>
+    <totalTickets>42</totalTickets>
+    <ticketPrice>100000</ticketPrice>
+  </category>
+  <category id="6">
+    <name>Balcony</name>
+    <totalTickets>75</totalTickets>
+    <ticketPrice>90000</ticketPrice>
+  </category>
+</categories>

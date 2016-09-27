@@ -1,0 +1,14 @@
+﻿@model System.Security.Principal.IPrincipal
+
+@if (!Model.Identity.IsAuthenticated)
+{
+	<span>@Resources.Resource.Welcome</span>
+	@Html.ActionLink(Resources.Resource.Login, "Login", new { controller = "Account", returnUrl = HttpContext.Current.Request.RawUrl })
+	@Html.ActionLink(Resources.Resource.Register, "Register")
+}
+else
+{
+	@Html.ActionLink(Resources.Resource.MyOrders, "MyOrders", "Home")
+	<span>@Resources.Resource.User : @Model.Identity.Name</span>
+	@Html.ActionLink(Resources.Resource.Logout, "Logout", "Account")
+}

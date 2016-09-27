@@ -1,0 +1,12 @@
+﻿@model IEnumerable<OrderViewModel>
+@{
+	ViewBag.Title = Resources.Resource.OrderNotificationTitle;
+	var date = ViewBag.Date as PlayDate;
+}
+
+<h2>@Resources.Resource.ThankYouForOrder</h2>
+@Html.Partial("ShowOrdersPartial", Model)
+<p>@Resources.Resource.OrderDeliveryMessage</p>
+
+@Html.ActionLink(Resources.Resource.BackToOrders, "Order", @date.DateID)
+@Html.ActionLink(Resources.Resource.BackToMain, "Index")

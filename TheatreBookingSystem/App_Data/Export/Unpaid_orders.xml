@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<orders>
+<order user="user1" email="user1@example.com" phone="9364638224">
+<play>Paulinka</play>
+<date>2016-07-10T00:00:00</date>
+<category>Loge</category>
+<quantity>3</quantity>
+<bill>390000</bill>
+</order>
+<order user="user1" email="user1@example.com" phone="9364638224">
+<play>Paulinka</play>
+<date>2016-07-27T00:00:00</date>
+<category>Parterre</category>
+<quantity>4</quantity>
+<bill>720000</bill>
+</order>
+<order user="user1" email="user1@example.com" phone="9364638224">
+<play>Paulinka</play>
+<date>2016-07-27T00:00:00</date>
+<category>Loge</category>
+<quantity>2</quantity>
+<bill>260000</bill>
+</order>
+<order user="deliveryman" email="deliveryman@example.com" phone="8325131301">
+<play>Not mine</play>
+<date>2016-07-22T00:00:00</date>
+<category>Loge</category>
+<quantity>1</quantity>
+<bill>130000</bill>
+</order>
+<order user="user3" email="user3@example.com" phone="8325131301">
+<play>Paulinka</play>
+<date>2016-07-02T00:00:00</date>
+<category>Parterre</category>
+<quantity>5</quantity>
+<bill>900000</bill>
+</order>
+<order user="deliveryman" email="deliveryman@example.com" phone="8325131301">
+<play>Prince Vitaut</play>
+<date>2016-07-18T00:00:00</date>
+<category>Balcony</category>
+<quantity>2</quantity>
+<bill>180000</bill>
+</order>
+<order user="user1" email="user1@example.com" phone="9364638224">
+<play>Paulinka</play>
+<date>2016-07-10T00:00:00</date>
+<category>Parterre</category>
+<quantity>1</quantity>
+<bill>180000</bill>
+</order>
+
+</orders>

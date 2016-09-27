@@ -1,0 +1,7 @@
+﻿@model Play
+
+&emsp;@Model.Genre.Name<br />
+@Model.Author.Name&#x0002E;
+<b>
+	@Html.ActionLink(Model.Name, "Details", new { id = Model.PlayID })
+</b><br />

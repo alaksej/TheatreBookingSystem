@@ -1,0 +1,21 @@
+﻿@model IEnumerable<OrderViewModel>
+@{
+	ViewBag.Title = Resources.Resource.OrderCancelledTitle;
+}
+@foreach (var o in Model)
+{
+	<ul>
+		<li>
+			<b>@Resources.Resource.PlayName:</b> @o.PlayName
+		</li>
+		<li>
+			<b>@Resources.Resource.Date:</b> @o.Date
+		</li>
+		<li>
+			<b>@Resources.Resource.Category:</b> @o.CategoryName
+		</li>
+		<li>
+			<b>@Resources.Resource.Quantity:</b> @o.Quantity
+		</li>
+	</ul>
+}
