@@ -11,7 +11,7 @@ namespace TheatreBookingSystem.App_Start
 	{
 		public static void RegisterGlobalFilters(GlobalFilterCollection filters)
 		{
-			filters.Add(new RequreSecureConnectionFilter());
+			//filters.Add(new RequreSecureConnectionFilter());
 			//filters.Add(new RequireHttpsAttribute());
 			filters.Add(new CultureAttribute());
 		}
