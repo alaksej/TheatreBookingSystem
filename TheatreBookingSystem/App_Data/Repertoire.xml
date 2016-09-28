@@ -5,31 +5,38 @@
   <play id="1" author ="Aliaksei Dudarau" genre="Mystical legend about love">
     <name>Black lady of Niasvizh</name>
     <dates>
-      <date id="1">2016-10-05</date>
-      <date id="2">2016-11-16</date>
+      <date id="1">2016-07-05</date>
+      <date id="2">2016-07-16</date>
     </dates>
   </play>
   <play id="2" author="Yanka Kupala" genre="Comedy">
     <name>Paulinka</name>
     <dates>
-      <date id="3">2016-10-02</date>
-      <date id="4">2016-12-10</date>
+      <date id="3">2016-07-02</date>
+      <date id="4">2016-07-10</date>
       <date id="5">2016-07-27</date>
     </dates>
   </play>
   <play id="3" author="Ales Adamovich" genre="Drama">
     <name>Not mine</name>
     <dates>
-      <date id="6">2016-12-03</date>
+      <date id="6">2016-07-03</date>
       <date id="7">2016-07-17</date>
-      <date id="8">2016-11-22</date>
+      <date id="8">2016-07-22</date>
     </dates>
   </play>
   <play id="4" author ="Aliaksei Dudarau" genre="Drama">
     <name>Prince Vitaut</name>
     <dates>
-      <date id="9">2016-10-07</date>
+      <date id="9">2016-07-07</date>
       <date id="10">2016-07-18</date>
+    </dates>
+  </play>
+  <play id="4" author ="Aliaksei Dudarau" genre="Drama">
+    <name>Prince Vitaut</name>
+    <dates>
+      <date id="11">2016-10-07</date>
+      <date id="12">2016-10-18</date>
     </dates>
   </play>
 </rep:repertoire>
