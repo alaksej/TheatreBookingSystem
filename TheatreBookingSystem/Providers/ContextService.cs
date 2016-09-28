@@ -60,8 +60,8 @@ namespace TheatreBookingSystem
 		{
 			return (from o in db.Orders
 					where o.CategoryID == categoryId &&
-				   o.Login.Name == userName &&
-				   o.Date.DateID == date.DateID
+				    o.Login.Name == userName &&
+				    o.Date.DateID == date.DateID
 					select o).FirstOrDefault();
 		}
 
@@ -134,10 +134,10 @@ namespace TheatreBookingSystem
 		{
 			using (var transaction = db.Database.BeginTransaction())
 			{
-				db.Database.ExecuteSqlCommand(@"SET IDENTITY_INSERT [dbo].[Dates] ON");
+				//db.Database.ExecuteSqlCommand(@"SET IDENTITY_INSERT [dbo].[Dates] ON");
 				db.Dates.Add(date);
 				db.SaveChanges();
-				db.Database.ExecuteSqlCommand(@"SET IDENTITY_INSERT [dbo].[Dates] OFF");
+				//db.Database.ExecuteSqlCommand(@"SET IDENTITY_INSERT [dbo].[Dates] OFF");
 				transaction.Commit();
 			}
 		}
